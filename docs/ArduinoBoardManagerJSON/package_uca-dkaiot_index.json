@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "name": "uca-aiot",
+      "maintainer": "mtnguyen",
+      "websiteURL": "https://github.com/nguyenmanhthao996tn/UCA_AIoT_Core/",
+      "email": "mtnguyen@unice.fr",
+      "help": {
+        "online": "https://univ-cotedazur.fr/"
+      },
+      "platforms": [
+        {
+          "name": "UCA-DKAIoT",
+          "architecture": "stm32l4",
+          "version": "0.0.2",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/nguyenmanhthao996tn/arduino-STM32L4/tree/rfthings"
+          },
+          "url": "https://github.com/nguyenmanhthao996tn/UCA_AIoT_Core/archive/refs/tags/v0.0.2.tar.gz",
+          "archiveFileName": "UCA_AIoT_Core-0.0.2.tar.gz",
+          "checksum": "MD5:B5D91D7DE9CFFB7DE6BAF9A3D13DFFA8",
+          "size": "17076790",
+          "boards": [
+            {"name": "DKAIoT"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    }
+  ]
+}
