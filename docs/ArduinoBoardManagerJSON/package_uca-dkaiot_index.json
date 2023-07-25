@@ -9,6 +9,29 @@
         "online": "https://univ-cotedazur.fr/"
       },
       "platforms": [
+		{
+          "name": "UCA-DKAIoT",
+          "architecture": "stm32l4",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/FabienFerrero/UCA_AIoT_Core/"
+          },
+          "url": "https://github.com/FabienFerrero/UCA_AIoT_Core/archive/refs/tags/v1.0.1.tar.gz",
+          "archiveFileName": "UCA_AIoT_Core-1.0.1.tar.gz",
+          "checksum": "MD5:9EBDE6730915A47B62510197AB7CBDA4",
+          "size": "17131525",
+          "boards": [
+            {"name": "DKAIoT"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            }
+          ]
+        },
         {
           "name": "UCA-DKAIoT",
           "architecture": "stm32l4",
