@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "LEAT EchoStar Terminals",
+      "name": "leat-echostar-terminals",
       "websiteURL": "https://github.com/nguyenmanhthao996tn/LEAT-EchoStar-Terminal-BSP/",
       "maintainer": "nguyenmanhthao996tn",
       "email": "manhthao.spm@gmail.com",
@@ -9,6 +9,41 @@
         "online": "https://github.com/nguyenmanhthao996tn/"
       },
       "platforms": [
+        {
+          "name": "LEAT EchoStar Terminals",
+          "architecture": "stm32",
+          "version": "2.8.0-dev1",
+          "category": "Contributed",
+          "url": "https://github.com/nguyenmanhthao996tn/LEAT-EchoStar-Terminal-BSP/archive/refs/tags/2.8.0-dev1.tar.gz",
+          "archiveFileName": "LEAT-EchoStar-Terminal-BSP-2.8.0-dev1.tar.gz",
+          "checksum": "SHA-256:345C68870A808F23AF21A8B57DF849F9A52B621F375DB6269C2350EAB737BB99",
+          "size": "63019852",
+          "boards": [
+            {"name": "EchoStar Term 6"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STMicroelectronics",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "12.2.1-1.2"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "xpack-openocd",
+              "version": "0.12.0-1"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "STM32Tools",
+              "version": "2.2.1"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "CMSIS",
+              "version": "5.9.0"
+            }
+          ]
+        },
         {
           "name": "LEAT EchoStar Terminals",
           "architecture": "stm32",
