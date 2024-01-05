@@ -11,6 +11,8 @@ These tools are included in the [Docker Engine](https://docs.docker.com/engine/)
 
 (*If you has docker & docker compose installed on your server, you can skip to Step 9*)
 
+---
+
 For **Ubuntu 22.04**, follow one-by-one commands listed below to install the Docker Engine:
 
 - Step 1: Update your existing list of packages
@@ -65,11 +67,15 @@ docker compose version
 
 ![](./docs/docker_compose_version.png)
 
+---
+
 **For other systems**, refer to this guide instead: [Install Docker Engine](https://docs.docker.com/engine/install/)
+
+---
 
 **Tip**: If you are testing on a system with GUI, docker-desktop can provide same tools with extra GUI management applications: https://www.docker.com/products/docker-desktop/
 
-## Installation
+## Installation of Node-RED, InfluxdB and Grafana stack
 
 ### Step 1. Create folder
 ```
