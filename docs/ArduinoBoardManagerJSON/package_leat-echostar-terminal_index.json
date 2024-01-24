@@ -12,6 +12,42 @@
         {
           "name": "LEAT EchoStar Terminals",
           "architecture": "stm32",
+          "version": "2.8.0-dev4",
+          "category": "Contributed",
+          "url": "https://github.com/nguyenmanhthao996tn/LEAT-EchoStar-Terminal-BSP/archive/refs/tags/2.8.0-dev4.tar.gz",
+          "archiveFileName": "LEAT-EchoStar-Terminal-BSP-2.8.0-dev4.tar.gz",
+          "checksum": "SHA-256:48B2D735F545D7D5D89E7CBC75984D9D830E219B5BB3C9188BB41DE47503C15D",
+          "size": "63028163",
+          "boards": [
+            {"name": "EchoStar Term 6"},
+            {"name": "EchoStar Term 7"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "STMicroelectronics",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "12.2.1-1.2"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "xpack-openocd",
+              "version": "0.12.0-1"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "STM32Tools",
+              "version": "2.2.1"
+            },
+            {
+              "packager": "STMicroelectronics",
+              "name": "CMSIS",
+              "version": "5.9.0"
+            }
+          ]
+        },
+        {
+          "name": "LEAT EchoStar Terminals",
+          "architecture": "stm32",
           "version": "2.8.0-dev3",
           "category": "Contributed",
           "url": "https://github.com/nguyenmanhthao996tn/LEAT-EchoStar-Terminal-BSP/archive/refs/tags/2.8.0-dev3.tar.gz",
